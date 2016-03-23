@@ -1,6 +1,9 @@
 {
   "name": "ng-harvestForecast",
   "homepage": "https://github.com/MatiseAms/harvestForecast",
+  "dependencies": [
+    "git://github.com:MatiseAms/harvestForecast.git": "*"
+  ],
   "authors": [
     "Maurits Meester <maurits@matise.nl>"
   ],
