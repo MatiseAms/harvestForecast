@@ -1,0 +1,23 @@
+{
+  "name": "ng-harvestForecast",
+  "homepage": "https://github.com/MatiseAms/harvestForecast",
+  "authors": [
+    "Maurits Meester <maurits@matise.nl>"
+  ],
+  "description": "AngularJS SDK for Harvest Forecast",
+  "main": "harvestForecast.js",
+  "moduleType": [],
+  "keywords": [
+    "harvest",
+    "forecast",
+    "api"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
