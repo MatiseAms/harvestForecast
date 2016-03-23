@@ -3,7 +3,7 @@ A small wrapper to use Harvest Forecast SDK on your site or Second Screen
 
 ## Find your Forecastapp credentials
 - Go to http://forecastapp.com
-- Login if not Logged in yet
+- Login if not logged in yet
 - Open your webinspector
 - Navigate to Resources -> Local storage
 - Find and copy `account_id` and `access_token`
@@ -78,8 +78,12 @@ HarvestForecastService.getPeople().then(function(people){
 ```
 
 ## TODO
+
 - Incorporate all get functions in SDK
--
+- Expand functions with date range
+- Manipulate functions (create/delete/update)
+- Better way to use the api
+- More of your great ideas ;)
 
 
 ### License
