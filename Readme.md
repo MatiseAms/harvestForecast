@@ -1,6 +1,13 @@
 # AngularJS Harvest Forecast SDK
 A small wrapper to use Harvest Forecast SDK on your site or Second Screen
 
+## Find your Forecastapp credentials
+- Go to http://forecastapp.com
+- Login if not Logged in yet
+- Open your webinspector
+- Navigate to Resources -> Local storage
+- Find and copy `account_id` and `access_token`
+
 ## Install
 
 Install Harvest Forecast SDK using [bower](http://bower.io):
@@ -44,6 +51,7 @@ Get Assignments with `start` and `end` date
 ```javascript
 var start = '2016-03-23';
 var end = '2016-03-23';
+
 HarvestForecastService.getAssignments(start,end).then(function(assignments){
   $scope.assignments = assignments;
 });
@@ -69,8 +77,13 @@ HarvestForecastService.getPeople().then(function(people){
 });
 ```
 
+## TODO
+- Incorporate all get functions in SDK
+-
+
+
 ### License
-Copyright (c) 2016 - Maurits Meester
+Copyright (c) 2016 - Maurits Meester - http://www.matise.nl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
