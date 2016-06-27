@@ -66,6 +66,23 @@ angular.module('HarvestForecastModule', [])
       return deferObj.promise;
     };
 
+    self.getClients = function getClients(){
+      var deferObj = $q.defer();
+
+      req.url = harvestForecastConfig.Url + '/clients';
+      req.method = 'get';
+
+
+      $http(req).then(function(data){
+        deferObj.resolve(data.data.clients);
+      },
+      function(error){
+        console.log(error);
+      });
+
+      return deferObj.promise;
+    };
+
     self.getAssignments = function getAssignments(start_date,end_date){
       var deferObj = $q.defer();
 
