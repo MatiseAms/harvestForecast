@@ -59,7 +59,7 @@ HarvestForecastService.getAssignments(start,end).then(function(assignments){
 Get milestones
 ```javascript
 HarvestForecastService.getMilestones().then(function(milestones){
-  $scope.projects = milestones;
+  $scope.milestones = milestones;
 })
 ```
 
@@ -67,6 +67,13 @@ Get projects
 ```javascript
 HarvestForecastService.getProjects().then(function(projects){
   $scope.projects = projects;
+})
+```
+
+Get clients
+```javascript
+HarvestForecastService.getClients().then(function(clients){
+  $scope.clients = clients;
 })
 ```
 
