@@ -1,0 +1,19 @@
+{
+  "name": "matise-harvest",
+  "version": "1.0.0",
+  "description": "Harvest api access by Matise",
+  "main": "harvestForecast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiseAms/harvestForecast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiseAms/harvestForecast/issues"
+  },
+  "homepage": "https://github.com/MatiseAms/harvestForecast#readme"
+}
